@@ -41,8 +41,8 @@ var mergeTwoLists = function (list1, list2) {
     return list1Head
 
 
-    // Forum Solution:
-    // Solution link
+    // Forum Solution: create a dummy linked list and start merging from l1 and l2.
+    // Solution link https://leetcode.com/problems/merge-two-sorted-lists/solutions/9963/simple-javascript-solution/
 }
 
 //
