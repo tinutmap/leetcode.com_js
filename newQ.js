@@ -3,7 +3,7 @@ import { join } from "path";
 import promptSync from 'prompt-sync'; // credit: https://stackoverflow.com/a/65852551/16236333
 const prompt = promptSync();
 
-async function copyDir (src, dest) {
+async function copyDir (src, dest) { // credit https://stackoverflow.com/a/64255382/16236333
     await fs.mkdir(dest, { recursive: true });
     let entries = await fs.readdir(src, { withFileTypes: true });
 
