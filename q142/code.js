@@ -15,6 +15,7 @@
 var detectCycle = function (head) {
   // Solution 1: using Set. not optimal with O(1) memory.
   // Solution link
+  const d = new Set();
   while (head) {
     if (!d.has(head)) {
       d.add(head);

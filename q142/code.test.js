@@ -6,10 +6,11 @@ const {
 } = require("../linkedList/base");
 
 test("test 1", () => {
+  // This test is not working
   const head = [3, 2, 0, -4];
-  re = 1;
   const headList = createSinglyLinkedList(head),
-    fToArray = linkListToArray(f(headList));
+    fToArray = linkListToArray(f(headList)),
+    re = [];
 
   expect(fToArray).toStrictEqual(re);
 });
