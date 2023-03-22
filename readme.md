@@ -1,6 +1,6 @@
 # Prerequisites:
 
-- Node https://nodejs.org/en/download/
+- Node https://nodejs.org/en/download/. If multiple Node versions needed for different projects on the same dev machine, use https://github.com/volta-cli
 - Git Setup https://git-scm.com/downloads
   - `git config --global user.name 'Tin Dinh'`
   - `git config --global user.email 'tinutmap@gmail.com'`
