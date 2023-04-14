@@ -29,3 +29,7 @@ This repo stores the practice of Data Structure and Algorithm challenges on [lee
   - Extension https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
   - add to workspace `settings.json`
     - `"editor.defaultFormatter": "esbenp.prettier-vscode"`
+
+# Start new challenge/question:
+
+- At project root run `node newQ` and input question number.
