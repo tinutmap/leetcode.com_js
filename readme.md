@@ -1,3 +1,11 @@
+# Summary:
+
+This repo stores the practice of Data Structure and Algorithm challenges on [leetcode.com](leetcode.com) using Javascript. This has a few highligted advantages over coding directly on [leetcode.com](leetcode.com)'s IDE:
+
+- Testing is set up locally with Jest and VSCode testing framework and can run conveniently without hitting rate limiting or user' rating on [leetcode.com](leetcode.com)
+  ![testing](https://github.com/tinutmap/leetcode.com_js/blob/master/static/testing.png?raw=true)
+- Abstraction classes and methods for commonly used structures such as linked list have already been coded and tested by the author. See details in and implementation in `./linked_list/base.js` and files that import those.
+
 # Prerequisites:
 
 - Node https://nodejs.org/en/download/. If multiple Node versions needed for different projects on the same dev machine, use https://github.com/volta-cli
